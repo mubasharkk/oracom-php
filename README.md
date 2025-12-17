@@ -12,7 +12,7 @@ A Laravel-powered MCP agent that can list files, search markdown content, and wr
 
 ```bash
 git clone https://github.com/mubasharkk/oracom-php.git
-cd oracom-php/app
+cd oracom-php
 cp .env.example .env
 composer install
 npm install
