@@ -28,6 +28,18 @@ php artisan migrate
   - `LLAMA_ENDPOINT` (default `http://localhost:11434/v1/completions`)
   - `LLAMA_MODEL` (model name on your endpoint)
   - `LLAMA_TIMEOUT` (seconds, optional)
+- To connect an MCP-compatible UI client, use the following client config:
+
+```json
+{
+  "mcpServers": {
+    "laravel-taskrunner": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "http://localhost/mcp/task"]
+    }
+  }
+}
+```
 
 ## Running the app
 
